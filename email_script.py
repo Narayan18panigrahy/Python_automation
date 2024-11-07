@@ -45,11 +45,11 @@ def send_email(sender_email, sender_password, receiver_email, subject, body, smt
 # Example usage
 if __name__ == "__main__":
     # Sender's email credentials
-    sender_email = "your_email@gmail.com"  # Change to your email
-    sender_password = "your_app_password"  # Use app-specific password if 2FA is enabled
+    sender_email = "your_email@gmail.com"
+    sender_password = "your_app_password"
     
     # Receiver's email
-    receiver_email = "receiver_email@example.com"  # Change to receiver's email
+    receiver_email = "receiver_email@example.com"
     
     # Email subject and body
     subject = "Test Email from Python Script"
